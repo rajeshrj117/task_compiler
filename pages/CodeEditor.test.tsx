@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
+
 import CodeEditor from '../components/CodeEditor';
 
 test('renders code editor with run button', () => {
